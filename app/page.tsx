@@ -134,18 +134,51 @@ export default function Home() {
               <div className="mb-4 w-fit rounded-lg bg-[#3ecf8e] px-4 py-1.5 sm:mb-6">
                 <span className="text-sm font-semibold text-white sm:text-base">Intervenants</span>
               </div>
-              <div className="flex flex-col gap-4">
-                <div className="rounded-lg bg-[#1e2a3a] p-4">
-                  <p className="font-semibold text-white">Maître Katia Merten-Lentz</p>
-                  <p className="text-sm text-gray-400">Avocate experte en food law et innovation alimentaire</p>
+              <div className="flex flex-col gap-6">
+                {/* Sophie de Reynal - mise en avant */}
+                <div className="flex items-center gap-4">
+                  <div className="relative shrink-0">
+                    <div className="absolute -bottom-1 -right-1 h-20 w-20 rounded-full bg-[#3ecf8e] sm:h-24 sm:w-24" />
+                    <Image
+                      src="/speakers/sophie.png"
+                      alt="Sophie de Reynal"
+                      width={96}
+                      height={96}
+                      className="relative h-20 w-20 rounded-full object-cover grayscale sm:h-24 sm:w-24"
+                    />
+                  </div>
+                  <div>
+                    <p className="text-lg font-semibold text-white sm:text-xl">Sophie de Reynal</p>
+                    <p className="text-sm text-gray-400 sm:text-base">Directrice marketing, Nutrimarketing Innovation Alimentaire &amp; Communication</p>
+                  </div>
                 </div>
-                <div className="rounded-lg bg-[#1e2a3a] p-4">
-                  <p className="font-semibold text-white">Sophie de Reynal</p>
-                  <p className="text-sm text-gray-400">Directrice marketing, Nutrimarketing Innovation Alimentaire &amp; Communication</p>
+
+                {/* Maître Katia Merten-Lentz */}
+                <div className="flex items-center gap-4">
+                  <div className="relative shrink-0">
+                    <div className="absolute -bottom-1 -right-1 h-16 w-16 rounded-full bg-[#3ecf8e] sm:h-20 sm:w-20" />
+                    <div className="relative flex h-16 w-16 items-center justify-center rounded-full bg-gray-600 text-xl font-bold text-white sm:h-20 sm:w-20 sm:text-2xl">
+                      KM
+                    </div>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-white sm:text-lg">Maître Katia Merten-Lentz</p>
+                    <p className="text-sm text-gray-400">Avocate experte en food law et innovation alimentaire</p>
+                  </div>
                 </div>
-                <div className="rounded-lg bg-[#1e2a3a] p-4">
-                  <p className="font-semibold text-white">Startups FoodTech invitées</p>
-                  <p className="text-sm text-gray-400">Retours d&apos;expérience terrain</p>
+
+                {/* Startups FoodTech */}
+                <div className="flex items-center gap-4">
+                  <div className="relative shrink-0">
+                    <div className="absolute -bottom-1 -right-1 h-16 w-16 rounded-full bg-[#3ecf8e] sm:h-20 sm:w-20" />
+                    <div className="relative flex h-16 w-16 items-center justify-center rounded-full bg-gray-600 text-xl font-bold text-white sm:h-20 sm:w-20 sm:text-2xl">
+                      FT
+                    </div>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-white sm:text-lg">Startups FoodTech invitées</p>
+                    <p className="text-sm text-gray-400">Retours d&apos;expérience terrain</p>
+                  </div>
                 </div>
               </div>
             </div>
