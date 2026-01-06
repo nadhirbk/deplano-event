@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className="bg-[#1e2a3a] text-white">
       {/* Hero Section */}
-      <section className="flex min-h-screen flex-col">
-        <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-12">
+      <section className="flex min-h-screen flex-col justify-center">
+        <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
           {/* Header avec logo DePlano */}
           <div className="mb-4 flex justify-center sm:mb-12">
             <Image
@@ -80,24 +80,26 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Bouton d'inscription */}
-            <a
-              href={googleFormUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full rounded-xl bg-[#3ecf8e] px-6 py-3 text-center text-sm font-semibold text-white transition-all hover:bg-[#35b57a] hover:shadow-lg hover:shadow-[#3ecf8e]/25 sm:w-fit sm:px-8 sm:py-4 sm:text-lg"
-            >
-              S&apos;inscrire
-            </a>
-
-            {/* Lien "En savoir plus" */}
-            <div className="mt-6 flex flex-col items-center gap-2 sm:mt-8 sm:gap-3">
+            {/* Boutons CTA */}
+            <div className="flex w-full flex-col items-center gap-4 sm:flex-row sm:justify-center lg:justify-start">
+              <a
+                href={googleFormUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full rounded-xl bg-[#3ecf8e] px-6 py-3 text-center text-sm font-semibold text-white transition-all hover:bg-[#35b57a] hover:shadow-lg hover:shadow-[#3ecf8e]/25 sm:w-auto sm:px-8 sm:py-3 sm:text-base"
+              >
+                S&apos;inscrire
+              </a>
               <a
                 href="#details"
-                className="rounded-xl border-2 border-[#3ecf8e] px-6 py-3 text-sm font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:text-base"
+                className="w-full rounded-xl border-2 border-[#3ecf8e] px-6 py-3 text-center text-sm font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:w-auto sm:px-8 sm:text-base"
               >
                 En savoir plus sur l&apos;événement
               </a>
+            </div>
+
+            {/* Chevron animé */}
+            <div className="mt-6 flex justify-center sm:mt-8 lg:justify-start">
               <ChevronDown className="h-6 w-6 animate-bounce text-[#3ecf8e]" />
             </div>
           </div>
