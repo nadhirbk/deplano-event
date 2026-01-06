@@ -107,7 +107,7 @@ export default function Home() {
       </section>
 
       {/* Section Détails */}
-      <section id="details" className="scroll-mt-16 bg-[#162029] py-12 sm:scroll-mt-4 sm:py-16">
+      <section id="details" className="scroll-mt-24 bg-[#162029] py-12 sm:scroll-mt-8 sm:py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="grid gap-8 md:grid-cols-2 md:gap-12">
             {/* À propos */}
