@@ -157,9 +157,13 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <div className="relative shrink-0">
                     <div className="absolute -bottom-1 -right-1 h-16 w-16 rounded-full bg-[#3ecf8e] sm:h-20 sm:w-20" />
-                    <div className="relative flex h-16 w-16 items-center justify-center rounded-full bg-gray-600 text-xl font-bold text-white sm:h-20 sm:w-20 sm:text-2xl">
-                      KM
-                    </div>
+                    <Image
+                      src="/speakers/katia.png"
+                      alt="Maître Katia Merten-Lentz"
+                      width={80}
+                      height={80}
+                      className="relative h-16 w-16 rounded-full object-cover grayscale sm:h-20 sm:w-20"
+                    />
                   </div>
                   <div>
                     <p className="font-semibold text-white sm:text-lg">Maître Katia Merten-Lentz</p>
