@@ -13,6 +13,15 @@ export const metadata: Metadata = {
   description: "Talk organisé par DePlano x CPME sur le Novel Food",
 };
 
+// Force scroll to top on page load
+const ScrollToTop = () => (
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `window.history.scrollRestoration = 'manual'; window.scrollTo(0, 0);`,
+    }}
+  />
+);
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -20,6 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <ScrollToTop />
+      </head>
       <body className={`${openSans.variable} font-sans antialiased`}>
         {children}
       </body>
