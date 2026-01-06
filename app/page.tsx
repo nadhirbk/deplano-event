@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <div className="bg-[#1e2a3a] text-white">
       {/* Hero Section */}
-      <section className="flex min-h-screen flex-col">
-        <main className="mx-auto flex-1 max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
+      <section className="flex min-h-screen flex-col justify-between">
+        <main className="mx-auto max-w-6xl px-4 py-6 sm:flex-1 sm:px-6 sm:py-12">
           {/* Header avec logo DePlano */}
-          <div className="mb-8 flex justify-center sm:mb-12">
+          <div className="mb-4 flex justify-center sm:mb-12">
             <Image
               src="/deplano-logo.svg"
               alt="DePlano"
@@ -24,12 +24,12 @@ export default function Home() {
           {/* Contenu principal */}
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             {/* Badge Talk */}
-            <div className="mb-6 w-fit rounded-lg bg-[#3ecf8e] px-5 py-2 sm:mb-8 sm:px-6">
+            <div className="mb-4 w-fit rounded-lg bg-[#3ecf8e] px-5 py-2 sm:mb-8 sm:px-6">
               <span className="text-base font-semibold text-white sm:text-lg">Talk</span>
             </div>
 
             {/* Titre de l'événement */}
-            <h1 className="mb-6 text-3xl font-bold leading-tight sm:mb-8 sm:text-4xl lg:text-5xl">
+            <h1 className="mb-4 text-2xl font-bold leading-tight sm:mb-8 sm:text-4xl lg:text-5xl">
               Le Novel Food :{" "}
               <span className="text-[#3ecf8e]">Frein</span> ou{" "}
               <span className="text-[#3ecf8e]">accélérateur</span>{" "}
@@ -37,7 +37,7 @@ export default function Home() {
             </h1>
 
             {/* Logos organisateurs */}
-            <div className="mb-6 flex items-center gap-4 sm:mb-8 sm:gap-6">
+            <div className="mb-4 flex items-center gap-4 sm:mb-8 sm:gap-6">
               <Image
                 src="/deplano-logo.svg"
                 alt="DePlano"
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
 
             {/* Informations pratiques */}
-            <div className="mb-6 flex flex-col gap-3 sm:mb-8 sm:gap-4">
+            <div className="mb-4 flex flex-col gap-2 sm:mb-8 sm:gap-4">
               <div className="flex items-center justify-center gap-3 text-base sm:text-lg lg:justify-start">
                 <Calendar className="h-5 w-5 shrink-0 text-gray-400 sm:h-6 sm:w-6" />
                 <span>23 janvier 2025</span>
@@ -93,7 +93,7 @@ export default function Home() {
         </main>
 
         {/* Lien "En savoir plus" */}
-        <div className="flex flex-col items-center gap-3 pb-8">
+        <div className="flex flex-col items-center gap-2 pb-4 sm:gap-3 sm:pb-8">
           <a
             href="#details"
             className="rounded-xl border-2 border-[#3ecf8e] px-6 py-3 text-sm font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:text-base"
