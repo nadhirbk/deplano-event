@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className="bg-[#1e2a3a] text-white">
       {/* Hero Section */}
-      <section className="flex min-h-screen flex-col justify-between">
-        <main className="mx-auto max-w-6xl px-4 py-6 sm:flex-1 sm:px-6 sm:py-12">
+      <section className="flex min-h-screen flex-col">
+        <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-12">
           {/* Header avec logo DePlano */}
           <div className="mb-4 flex justify-center sm:mb-12">
             <Image
@@ -85,23 +85,23 @@ export default function Home() {
               href={googleFormUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full rounded-xl bg-[#3ecf8e] px-8 py-4 text-center text-base font-semibold text-white transition-all hover:bg-[#35b57a] hover:shadow-lg hover:shadow-[#3ecf8e]/25 sm:w-fit sm:text-lg"
+              className="w-full rounded-xl bg-[#3ecf8e] px-6 py-3 text-center text-sm font-semibold text-white transition-all hover:bg-[#35b57a] hover:shadow-lg hover:shadow-[#3ecf8e]/25 sm:w-fit sm:px-8 sm:py-4 sm:text-lg"
             >
               S&apos;inscrire
             </a>
+
+            {/* Lien "En savoir plus" */}
+            <div className="mt-6 flex flex-col items-center gap-2 sm:mt-8 sm:gap-3">
+              <a
+                href="#details"
+                className="rounded-xl border-2 border-[#3ecf8e] px-6 py-3 text-sm font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:text-base"
+              >
+                En savoir plus sur l&apos;événement
+              </a>
+              <ChevronDown className="h-6 w-6 animate-bounce text-[#3ecf8e]" />
+            </div>
           </div>
         </main>
-
-        {/* Lien "En savoir plus" */}
-        <div className="flex flex-col items-center gap-2 pb-4 sm:gap-3 sm:pb-8">
-          <a
-            href="#details"
-            className="rounded-xl border-2 border-[#3ecf8e] px-6 py-3 text-sm font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:text-base"
-          >
-            En savoir plus sur l&apos;événement
-          </a>
-          <ChevronDown className="h-6 w-6 animate-bounce text-[#3ecf8e]" />
-        </div>
       </section>
 
       {/* Section Détails */}
