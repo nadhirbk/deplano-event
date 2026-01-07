@@ -12,7 +12,7 @@ export default function Home() {
       <section className="flex min-h-screen flex-col justify-center py-4 sm:justify-between sm:py-8">
         <main className="mx-auto max-w-6xl px-4 sm:px-6 pb-2 flex flex-col justify-center sm:flex-1">
           {/* Header avec logo DePlano */}
-          <div className="mb-8 flex justify-center sm:mb-12">
+          <div className="mb-4 flex justify-center sm:mb-12">
             <Image
               src="/deplano-logo.svg"
               alt="DePlano"
