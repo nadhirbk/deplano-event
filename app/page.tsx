@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-[#1e2a3a] text-white">
       {/* Hero Section */}
-      <section className="flex min-h-screen flex-col justify-between py-8 sm:py-12">
+      <section className="flex min-h-screen flex-col justify-between py-4 sm:py-8">
         <main className="mx-auto max-w-6xl flex-1 px-4 sm:px-6 pb-8 flex flex-col justify-center">
           {/* Header avec logo DePlano */}
           <div className="mb-4 flex justify-center sm:mb-12">
@@ -39,7 +39,7 @@ export default function Home() {
               </h1>
 
               {/* Organisateurs */}
-              <div className="mb-4 flex items-center justify-center gap-3 sm:mb-6 sm:gap-4 lg:justify-start">
+              <div className="mb-4 flex items-center justify-center gap-4 sm:mb-6 sm:gap-5 lg:justify-start">
                 <span className="text-xs text-gray-400 sm:text-sm">Organisé par</span>
                 <Image
                   src="/deplano-logo.svg"
@@ -48,10 +48,10 @@ export default function Home() {
                   height={30}
                   className="h-5 w-auto sm:h-6"
                 />
-                <span className="text-gray-500">•</span>
+                <span className="text-xl font-bold text-gray-400">&amp;</span>
                 <div className="rounded bg-white px-2 py-1">
                   <Image
-                    src="/cpme-logo.svg"
+                    src="/cpme94.png"
                     alt="CPME 94"
                     width={80}
                     height={24}
@@ -95,7 +95,7 @@ export default function Home() {
                 href={googleFormUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group w-full rounded-full bg-[#3ecf8e] px-8 py-4 text-center text-base font-semibold text-white shadow-lg shadow-[#3ecf8e]/30 transition-all hover:bg-[#35b57a] hover:shadow-xl hover:shadow-[#3ecf8e]/40 hover:scale-105 sm:w-fit sm:px-10 sm:py-4 sm:text-lg"
+                className="group w-full rounded-full bg-[#3ecf8e] px-8 py-4 text-center text-base font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 sm:w-fit sm:px-10 sm:py-4 sm:text-lg"
               >
                 S&apos;inscrire gratuitement
               </a>
@@ -118,7 +118,7 @@ export default function Home() {
               <div className="mt-4 text-center max-w-xs lg:max-w-sm">
                 <p className="text-lg font-semibold text-white sm:text-xl lg:text-2xl">Maître Katia Merten-Lentz</p>
                 <p className="text-sm text-gray-400 lg:text-base">Avocate Food Law</p>
-                <p className="text-xs text-gray-500 lg:text-sm">Experte alimentation humaine et animale, innovation et sécurité alimentaire</p>
+                <p className="text-xs text-gray-500 lg:text-sm">Experte alimentation humaine et animale, innovation et sécurité alimentaire &amp; procédures d&apos;autorisations européennes</p>
               </div>
             </div>
           </div>
