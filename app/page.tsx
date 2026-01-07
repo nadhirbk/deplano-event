@@ -200,9 +200,6 @@ export default function Home() {
                 <p>
                   Pensé il y a près de 30 ans et révisé il y a 7 ans pour dynamiser l&apos;innovation et faciliter l&apos;accès au marché européen, le règlement Novel Food suscite toujours autant d&apos;espoirs que de zones d&apos;ombre.
                 </p>
-                <p>
-                  Entre procédures longues, exigences élevées et investissements lourds, la route est complexe. Mais les marchés à créer, les innovations de rupture et les opportunités business n&apos;ont jamais été aussi prometteurs.
-                </p>
                 <p className="font-medium text-white">
                   Comment continuer à booster l&apos;audace dans la FoodTech européenne ? Quels leviers activer pour concilier innovation, sécurité et accès rapide au marché ?
                 </p>
