@@ -172,14 +172,14 @@ export default function Home() {
             href={googleFormUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-xl bg-[#3ecf8e] px-4 py-2 text-xs font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 active:scale-95 sm:px-6 sm:py-3 sm:text-base lg:hidden"
+            className="rounded-xl bg-[#3ecf8e] px-5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 active:scale-95 sm:px-6 sm:py-3 sm:text-base lg:hidden"
           >
             S&apos;inscrire gratuitement
           </a>
           {/* En savoir plus - toujours visible et centré */}
           <button
             onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
-            className="rounded-xl border-2 border-[#3ecf8e] px-4 py-2 text-xs font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:px-6 sm:py-3 sm:text-base"
+            className="rounded-xl border-2 border-[#3ecf8e] px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:px-6 sm:py-3 sm:text-base"
           >
             En savoir plus sur l&apos;événement
           </button>
