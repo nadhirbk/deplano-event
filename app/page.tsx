@@ -216,37 +216,24 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-semibold text-white sm:text-lg">Sophie de Reynal</p>
-                    <p className="text-sm text-gray-400 sm:text-base">Directrice marketing, Nutrimarketing Innovation Alimentaire &amp; Communication</p>
-                  </div>
-                </div>
-
-                {/* Maître Katia Merten-Lentz */}
-                <div className="flex items-center gap-4">
-                  <div className="shrink-0">
-                    <Image
-                      src="/speakers/katia.png"
-                      alt="Maître Katia Merten-Lentz"
-                      width={80}
-                      height={80}
-                      className="h-16 w-16 rounded-full object-cover grayscale sm:h-20 sm:w-20"
-                    />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-white sm:text-lg">Maître Katia Merten-Lentz</p>
-                    <p className="text-sm text-gray-400">Avocate Food Law - Experte alimentation humaine et animale</p>
+                    <p className="text-sm text-gray-400">Directrice marketing, Nutrimarketing Innovation Alimentaire &amp; Communication</p>
                   </div>
                 </div>
 
                 {/* Basma Sadani */}
                 <div className="flex items-center gap-4">
                   <div className="shrink-0">
-                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gray-600 text-xl font-bold text-white sm:h-20 sm:w-20 sm:text-2xl">
-                      BS
-                    </div>
+                    <Image
+                      src="/speakers/basma.png"
+                      alt="Basma Sadani"
+                      width={80}
+                      height={80}
+                      className="h-16 w-16 rounded-full object-cover grayscale sm:h-20 sm:w-20"
+                    />
                   </div>
                   <div>
                     <p className="font-semibold text-white sm:text-lg">Basma Sadani</p>
-                    <p className="text-sm text-gray-400">À compléter</p>
+                    <p className="text-sm text-gray-400">Co-fondatrice @DePlano</p>
                   </div>
                 </div>
 
@@ -263,7 +250,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-semibold text-white sm:text-lg">Les Minuscules</p>
-                    <p className="text-sm text-gray-400">À compléter</p>
+                    <p className="text-sm text-gray-400">Alternatives protéiques à base de farine d&apos;insecte</p>
                   </div>
                 </div>
 
