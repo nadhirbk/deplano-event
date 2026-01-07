@@ -73,9 +73,9 @@ export default function Home() {
             </div>
 
             {/* Colonne droite - Photo Katia en grand */}
-            <div className="relative lg:shrink-0 flex flex-col items-center lg:mt-16">
-              <div className="mb-4 w-fit rounded-lg bg-[#3ecf8e] px-4 py-1.5">
-                <span className="text-sm font-semibold text-white sm:text-base">Main Guest</span>
+            <div className="relative lg:shrink-0 flex flex-col items-center">
+              <div className="mb-4 w-fit rounded-lg bg-[#3ecf8e] px-5 py-2 sm:mb-6 sm:px-6">
+                <span className="text-base font-semibold text-white sm:text-lg">Main Guest</span>
               </div>
               <div className="relative">
                 <div className="absolute -bottom-2 -right-2 h-48 w-48 rounded-full bg-[#3ecf8e] sm:h-64 sm:w-64 lg:h-72 lg:w-72" />
