@@ -22,7 +22,7 @@ export default function Home() {
           </div>
 
           {/* Contenu principal - Layout 2 colonnes sur desktop */}
-          <div className="flex flex-col items-center gap-8 lg:flex-row lg:items-center lg:gap-12">
+          <div className="flex flex-col items-center gap-8 lg:flex-row lg:items-start lg:gap-12">
             {/* Colonne gauche - Contenu */}
             <div className="flex flex-col items-center text-center lg:flex-1 lg:items-start lg:text-left">
               {/* Badge Talk */}
