@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="bg-[#1e2a3a] text-white">
       {/* Hero Section */}
-      <section className="flex min-h-screen flex-col justify-start pt-12 pb-4 sm:justify-between sm:py-8">
+      <section className="flex min-h-screen flex-col justify-start pt-8 pb-4 sm:justify-between sm:py-8">
         <main className="mx-auto max-w-6xl px-4 sm:px-6 pb-2 flex flex-col justify-center sm:flex-1">
           {/* Header avec logo DePlano */}
           <div className="mb-4 flex justify-center sm:mb-12">
