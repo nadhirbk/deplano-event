@@ -211,11 +211,11 @@ export default function Home() {
                       alt="Sophie de Reynal"
                       width={96}
                       height={96}
-                      className="h-20 w-20 rounded-full object-cover grayscale sm:h-24 sm:w-24"
+                      className="h-16 w-16 rounded-full object-cover grayscale sm:h-20 sm:w-20"
                     />
                   </div>
                   <div>
-                    <p className="text-lg font-semibold text-white sm:text-xl">Sophie de Reynal</p>
+                    <p className="font-semibold text-white sm:text-lg">Sophie de Reynal</p>
                     <p className="text-sm text-gray-400 sm:text-base">Directrice marketing, Nutrimarketing Innovation Alimentaire &amp; Communication</p>
                   </div>
                 </div>
@@ -237,16 +237,29 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* Startups FoodTech */}
+                {/* Les Minuscules */}
                 <div className="flex items-center gap-4">
                   <div className="shrink-0">
                     <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gray-600 text-xl font-bold text-white sm:h-20 sm:w-20 sm:text-2xl">
-                      FT
+                      LM
                     </div>
                   </div>
                   <div>
-                    <p className="font-semibold text-white sm:text-lg">Startups FoodTech invitées</p>
-                    <p className="text-sm text-gray-400">Retours d&apos;expérience terrain</p>
+                    <p className="font-semibold text-white sm:text-lg">Les Minuscules</p>
+                    <p className="text-sm text-gray-400">À compléter</p>
+                  </div>
+                </div>
+
+                {/* Dooda */}
+                <div className="flex items-center gap-4">
+                  <div className="shrink-0">
+                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gray-600 text-xl font-bold text-white sm:h-20 sm:w-20 sm:text-2xl">
+                      D
+                    </div>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-white sm:text-lg">Dooda</p>
+                    <p className="text-sm text-gray-400">À compléter</p>
                   </div>
                 </div>
               </div>
