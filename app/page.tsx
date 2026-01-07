@@ -57,7 +57,7 @@ export default function Home() {
                     alt="CPME 94"
                     width={80}
                     height={24}
-                    className="h-4 w-auto sm:h-5"
+                    className="h-5 w-auto sm:h-6"
                   />
                 </a>
               </div>
@@ -137,7 +137,7 @@ export default function Home() {
                 className="h-7 w-auto sm:h-8"
               />
             </div>
-            <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
+            <div className="rounded-md bg-[#FFCD00] px-3 py-1.5 sm:px-4 sm:py-2">
               <Image
                 src="/bpi.svg"
                 alt="Bpifrance"
