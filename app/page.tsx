@@ -40,7 +40,7 @@ export default function Home() {
 
               {/* Organisateurs */}
               <div className="mb-4 flex items-center justify-center gap-4 sm:mb-6 sm:gap-5 lg:justify-start">
-                <span className="text-xs text-gray-400 sm:text-sm">Organisé par</span>
+                <span className="text-xs font-semibold text-gray-400 sm:text-sm">Organisé par</span>
                 <a href="https://deplano.fr/" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-80">
                   <Image
                     src="/deplano-logo.svg"
@@ -127,9 +127,15 @@ export default function Home() {
 
           {/* Logos partenaires - sur une même ligne */}
           <div className="mt-2 flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:justify-start">
-            <span className="text-xs text-gray-400 sm:text-sm">Avec le soutien de</span>
+            <span className="text-xs font-semibold text-gray-400 sm:text-sm">Avec le soutien de</span>
             <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
-              <span className="text-xs font-bold text-gray-800 sm:text-sm">FoodTech</span>
+              <Image
+                src="/foodtech.png"
+                alt="FoodTech"
+                width={80}
+                height={24}
+                className="h-7 w-auto sm:h-8"
+              />
             </div>
             <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
               <Image
@@ -137,7 +143,7 @@ export default function Home() {
                 alt="Bpifrance"
                 width={100}
                 height={32}
-                className="h-5 w-auto sm:h-7"
+                className="h-5 w-auto sm:h-6"
               />
             </div>
           </div>
