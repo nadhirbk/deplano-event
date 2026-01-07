@@ -124,7 +124,7 @@ export default function Home() {
           </div>
 
           {/* Logos partenaires - sur une même ligne */}
-          <div className="mt-8 mb-8 flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:justify-start">
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:justify-start">
             <span className="text-xs text-gray-400 sm:text-sm">Avec le soutien de</span>
             <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
               <span className="text-xs font-bold text-gray-800 sm:text-sm">FoodTech</span>
