@@ -123,7 +123,13 @@ export default function Home() {
               <span className="text-xs font-bold text-gray-800 sm:text-sm">FoodTech</span>
             </div>
             <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
-              <span className="text-xs font-bold text-gray-800 sm:text-sm">Bpifrance</span>
+              <Image
+                src="/bpi.svg"
+                alt="Bpifrance"
+                width={100}
+                height={32}
+                className="h-5 w-auto sm:h-7"
+              />
             </div>
           </div>
         </main>
