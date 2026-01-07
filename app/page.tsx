@@ -73,16 +73,18 @@ export default function Home() {
             </div>
 
             {/* Colonne droite - Photo Katia en grand */}
-            <div className="relative lg:shrink-0">
-              <div className="absolute -bottom-3 -right-3 h-48 w-48 rounded-full bg-[#3ecf8e] sm:h-64 sm:w-64 lg:h-80 lg:w-80" />
-              <Image
-                src="/speakers/katia.png"
-                alt="Maître Katia Merten-Lentz"
-                width={320}
-                height={320}
-                className="relative h-48 w-48 rounded-full object-cover grayscale sm:h-64 sm:w-64 lg:h-80 lg:w-80"
-              />
-              <div className="mt-3 text-center">
+            <div className="relative lg:shrink-0 pr-4">
+              <div className="relative">
+                <div className="absolute -bottom-3 -right-3 h-48 w-48 rounded-full bg-[#3ecf8e] sm:h-64 sm:w-64 lg:h-72 lg:w-72" />
+                <Image
+                  src="/speakers/katia.png"
+                  alt="Maître Katia Merten-Lentz"
+                  width={288}
+                  height={288}
+                  className="relative h-48 w-48 rounded-full object-cover grayscale sm:h-64 sm:w-64 lg:h-72 lg:w-72"
+                />
+              </div>
+              <div className="mt-3 text-center max-w-[288px]">
                 <p className="text-lg font-semibold text-white sm:text-xl">Maître Katia Merten-Lentz</p>
                 <p className="text-sm text-gray-400">Avocate experte en food law</p>
               </div>
