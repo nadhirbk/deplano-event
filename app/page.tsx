@@ -151,8 +151,8 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-2 md:gap-12">
             {/* À propos */}
             <div>
-              <div className="mb-4 w-fit rounded-lg bg-[#3ecf8e] px-4 py-1.5 sm:mb-6">
-                <span className="text-sm font-semibold text-white sm:text-base">À propos</span>
+              <div className="mb-4 w-fit rounded-full bg-[#3ecf8e]/20 px-5 py-2 ring-2 ring-[#3ecf8e] sm:mb-6">
+                <span className="text-sm font-semibold text-[#3ecf8e] sm:text-base">📋 À propos</span>
               </div>
               <div className="space-y-4 text-base leading-relaxed text-gray-300 sm:text-lg">
                 <p>
@@ -172,8 +172,8 @@ export default function Home() {
 
             {/* Intervenants */}
             <div>
-              <div className="mb-4 w-fit rounded-lg bg-[#3ecf8e] px-4 py-1.5 sm:mb-6">
-                <span className="text-sm font-semibold text-white sm:text-base">Intervenants</span>
+              <div className="mb-4 w-fit rounded-full bg-[#3ecf8e]/20 px-5 py-2 ring-2 ring-[#3ecf8e] sm:mb-6">
+                <span className="text-sm font-semibold text-[#3ecf8e] sm:text-base">👥 Intervenants</span>
               </div>
               <div className="flex flex-col gap-6">
                 {/* Sophie de Reynal - mise en avant */}
