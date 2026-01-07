@@ -74,7 +74,7 @@ export default function Home() {
 
             {/* Colonne droite - Photo Katia en grand */}
             <div className="relative lg:shrink-0 flex flex-col items-center">
-              <div className="mb-3 w-fit rounded-lg bg-[#3ecf8e] px-5 py-2 sm:mb-4 sm:px-6">
+              <div className="mb-4 w-fit rounded-lg bg-[#3ecf8e] px-5 py-2 sm:mb-6 sm:px-6">
                 <span className="text-base font-semibold text-white sm:text-lg">Main Guest</span>
               </div>
               <div className="relative">
