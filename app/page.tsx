@@ -115,15 +115,6 @@ export default function Home() {
                       className="h-7 w-auto sm:h-8"
                     />
                   </div>
-                  <div className="rounded-md bg-[#FFCD00] px-3 py-1.5 sm:px-4 sm:py-2">
-                    <Image
-                      src="/bpi.svg"
-                      alt="Bpifrance"
-                      width={100}
-                      height={32}
-                      className="h-5 w-auto sm:h-6"
-                    />
-                  </div>
                   <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
                     <Image
                       src="/agroalia.avif"
@@ -131,6 +122,15 @@ export default function Home() {
                       width={80}
                       height={24}
                       className="h-7 w-auto sm:h-8"
+                    />
+                  </div>
+                  <div className="rounded-md bg-[#FFCD00] px-3 py-1.5 sm:px-4 sm:py-2">
+                    <Image
+                      src="/bpi.svg"
+                      alt="Bpifrance"
+                      width={100}
+                      height={32}
+                      className="h-5 w-auto sm:h-6"
                     />
                   </div>
                 </div>
@@ -179,7 +179,7 @@ export default function Home() {
             {/* À propos */}
             <div>
               <div className="mb-4 w-fit rounded-full bg-[#3ecf8e]/20 px-5 py-2 ring-2 ring-[#3ecf8e] sm:mb-6">
-                <span className="text-sm font-semibold text-[#3ecf8e] sm:text-base">📋 À propos</span>
+                <span className="text-sm font-semibold text-[#3ecf8e] sm:text-base">À propos</span>
               </div>
               <div className="space-y-4 text-base leading-relaxed text-gray-300 sm:text-lg">
                 <p>
@@ -200,7 +200,7 @@ export default function Home() {
             {/* Intervenants */}
             <div>
               <div className="mb-4 w-fit rounded-full bg-[#3ecf8e]/20 px-5 py-2 ring-2 ring-[#3ecf8e] sm:mb-6">
-                <span className="text-sm font-semibold text-[#3ecf8e] sm:text-base">👥 Intervenants</span>
+                <span className="text-sm font-semibold text-[#3ecf8e] sm:text-base">Intervenants</span>
               </div>
               <div className="flex flex-col gap-6">
                 {/* Sophie de Reynal - mise en avant */}
