@@ -38,6 +38,28 @@ export default function Home() {
                 d&apos;innovation ?
               </h1>
 
+              {/* Organisateurs */}
+              <div className="mb-4 flex items-center justify-center gap-3 sm:mb-6 sm:gap-4 lg:justify-start">
+                <span className="text-xs text-gray-400 sm:text-sm">Organisé par</span>
+                <Image
+                  src="/deplano-logo.svg"
+                  alt="DePlano"
+                  width={100}
+                  height={30}
+                  className="h-5 w-auto sm:h-6"
+                />
+                <span className="text-gray-500">•</span>
+                <div className="rounded bg-white px-2 py-1">
+                  <Image
+                    src="/cpme-logo.svg"
+                    alt="CPME 94"
+                    width={80}
+                    height={24}
+                    className="h-4 w-auto sm:h-5"
+                  />
+                </div>
+              </div>
+
               {/* Informations pratiques */}
               <div className="mb-4 flex flex-col gap-2 sm:mb-6 sm:gap-3">
                 <div className="flex items-center justify-center gap-3 text-base sm:text-lg lg:justify-start">
@@ -103,22 +125,7 @@ export default function Home() {
 
           {/* Logos partenaires - sur une même ligne */}
           <div className="mt-8 mb-8 flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:justify-start">
-            <Image
-              src="/deplano-logo.svg"
-              alt="DePlano"
-              width={120}
-              height={36}
-              className="h-7 w-auto sm:h-9"
-            />
-            <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
-              <Image
-                src="/cpme-logo.svg"
-                alt="CPME 94"
-                width={100}
-                height={32}
-                className="h-5 w-auto sm:h-7"
-              />
-            </div>
+            <span className="text-xs text-gray-400 sm:text-sm">Avec le soutien de</span>
             <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
               <span className="text-xs font-bold text-gray-800 sm:text-sm">FoodTech</span>
             </div>
