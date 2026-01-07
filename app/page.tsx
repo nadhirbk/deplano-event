@@ -1,3 +1,5 @@
+"use client";
+
 import { Calendar, ChevronDown, Clock, MapPin } from "lucide-react";
 import Image from "next/image";
 
@@ -162,12 +164,12 @@ export default function Home() {
 
         {/* Lien "En savoir plus" en bas */}
         <div className="flex flex-col items-center gap-2 pb-4 pt-2 sm:gap-3">
-          <a
-            href="#details"
+          <button
+            onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
             className="rounded-xl border-2 border-[#3ecf8e] px-6 py-3 text-sm font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:text-base"
           >
             En savoir plus sur l&apos;événement
-          </a>
+          </button>
           <ChevronDown className="h-6 w-6 animate-bounce text-[#3ecf8e]" />
         </div>
       </section>
@@ -267,7 +269,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-semibold text-white sm:text-lg">Dooda</p>
-                    <p className="text-sm text-gray-400">À compléter</p>
+                    <p className="text-sm text-gray-400">Ingrédients à base d&apos;insectes pour nourrir les animaux, les plantes et les humains</p>
                   </div>
                 </div>
               </div>
