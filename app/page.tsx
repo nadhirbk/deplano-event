@@ -94,8 +94,8 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Logos partenaires - cachés sur mobile */}
-              <div className="mt-4 hidden flex-col gap-1 sm:mt-6 sm:flex">
+              {/* Logos partenaires */}
+              <div className="mt-2 flex flex-col gap-1 sm:mt-6">
                 <span className="text-center text-xs font-semibold text-gray-400 sm:text-sm lg:text-left">Avec le soutien de</span>
                 <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 lg:justify-start">
                   <div className="rounded-md bg-white px-2 py-1 sm:px-3 sm:py-1.5">
@@ -166,7 +166,7 @@ export default function Home() {
         </main>
 
         {/* CTAs en bas */}
-        <div className="flex flex-col items-center gap-2 pb-2 pt-8 sm:gap-3 sm:pb-4 sm:pt-2">
+        <div className="flex flex-col items-center gap-2 pb-2 pt-4 sm:gap-3 sm:pb-4 sm:pt-2">
           {/* S'inscrire - mobile/tablette seulement */}
           <a
             href={googleFormUrl}
