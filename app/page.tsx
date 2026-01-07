@@ -237,6 +237,19 @@ export default function Home() {
                   </div>
                 </div>
 
+                {/* Basma Sadani */}
+                <div className="flex items-center gap-4">
+                  <div className="shrink-0">
+                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gray-600 text-xl font-bold text-white sm:h-20 sm:w-20 sm:text-2xl">
+                      BS
+                    </div>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-white sm:text-lg">Basma Sadani</p>
+                    <p className="text-sm text-gray-400">À compléter</p>
+                  </div>
+                </div>
+
                 {/* Les Minuscules */}
                 <div className="flex items-center gap-4">
                   <div className="shrink-0">
