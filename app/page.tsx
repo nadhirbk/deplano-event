@@ -57,7 +57,7 @@ export default function Home() {
                     alt="CPME 94"
                     width={80}
                     height={24}
-                    className="h-6 w-auto sm:h-7"
+                    className="h-7 w-auto sm:h-8"
                   />
                 </a>
               </div>
