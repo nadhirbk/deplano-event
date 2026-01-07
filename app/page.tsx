@@ -95,7 +95,7 @@ export default function Home() {
           </div>
 
           {/* Logos partenaires - sur une même ligne */}
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:justify-start">
+          <div className="mt-8 mb-8 flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:justify-start">
             <Image
               src="/deplano-logo.svg"
               alt="DePlano"
