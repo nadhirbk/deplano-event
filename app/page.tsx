@@ -41,15 +41,17 @@ export default function Home() {
               {/* Organisateurs */}
               <div className="mb-4 flex items-center justify-center gap-4 sm:mb-6 sm:gap-5 lg:justify-start">
                 <span className="text-xs text-gray-400 sm:text-sm">Organisé par</span>
-                <Image
-                  src="/deplano-logo.svg"
-                  alt="DePlano"
-                  width={100}
-                  height={30}
-                  className="h-5 w-auto sm:h-6"
-                />
+                <a href="https://deplano.fr/" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-80">
+                  <Image
+                    src="/deplano-logo.svg"
+                    alt="DePlano"
+                    width={100}
+                    height={30}
+                    className="h-5 w-auto sm:h-6"
+                  />
+                </a>
                 <span className="text-xl font-bold text-gray-400">&amp;</span>
-                <div className="rounded bg-white px-2 py-1">
+                <a href="https://cpme94.fr/" target="_blank" rel="noopener noreferrer" className="rounded bg-white px-2 py-1 transition-opacity hover:opacity-80">
                   <Image
                     src="/cpme94.png"
                     alt="CPME 94"
@@ -57,7 +59,7 @@ export default function Home() {
                     height={24}
                     className="h-4 w-auto sm:h-5"
                   />
-                </div>
+                </a>
               </div>
 
               {/* Informations pratiques */}
@@ -117,8 +119,8 @@ export default function Home() {
               </div>
               <div className="mt-4 text-center max-w-xs lg:max-w-sm">
                 <p className="text-lg font-semibold text-white sm:text-xl lg:text-2xl">Maître Katia Merten-Lentz</p>
-                <p className="text-sm text-gray-400 lg:text-base">Avocate Food Law</p>
-                <p className="text-xs text-gray-500 lg:text-sm">Experte alimentation humaine et animale, innovation et sécurité alimentaire &amp; procédures d&apos;autorisations européennes</p>
+                <p className="text-sm font-semibold text-gray-300 lg:text-base">Avocate Food Law</p>
+                <p className="text-xs text-gray-400 lg:text-sm">Experte alimentation humaine et animale, innovation et sécurité alimentaire &amp; procédures d&apos;autorisations européennes</p>
               </div>
             </div>
           </div>
