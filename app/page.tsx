@@ -73,7 +73,7 @@ export default function Home() {
             </div>
 
             {/* Colonne droite - Photo Katia en grand */}
-            <div className="relative lg:shrink-0 flex flex-col items-center">
+            <div className="relative lg:shrink-0 flex flex-col items-center lg:mt-16">
               <div className="relative">
                 <div className="absolute -bottom-2 -right-2 h-48 w-48 rounded-full bg-[#3ecf8e] sm:h-64 sm:w-64 lg:h-72 lg:w-72" />
                 <Image
