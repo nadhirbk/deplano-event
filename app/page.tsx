@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-[#1e2a3a] text-white">
       {/* Hero Section */}
       <section className="flex min-h-screen flex-col justify-between py-4 sm:py-8">
-        <main className="mx-auto max-w-6xl flex-1 px-4 sm:px-6 pb-8 flex flex-col justify-center">
+        <main className="mx-auto max-w-6xl flex-1 px-4 sm:px-6 pb-2 flex flex-col justify-center">
           {/* Header avec logo DePlano */}
           <div className="mb-4 flex justify-center sm:mb-12">
             <Image
@@ -22,7 +22,7 @@ export default function Home() {
           </div>
 
           {/* Contenu principal - Layout 2 colonnes sur desktop */}
-          <div className="flex flex-col items-center gap-8 lg:flex-row lg:items-start lg:gap-12">
+          <div className="flex flex-col items-center gap-4 lg:flex-row lg:items-start lg:gap-12">
             {/* Colonne gauche - Contenu */}
             <div className="flex flex-col items-center text-center lg:flex-1 lg:items-start lg:text-left">
               {/* Badge Talk */}
@@ -101,12 +101,46 @@ export default function Home() {
               >
                 S&apos;inscrire gratuitement
               </a>
+
+              {/* Logos partenaires */}
+              <div className="mt-6 flex flex-col gap-1">
+                <span className="text-center text-xs font-semibold text-gray-400 sm:text-sm lg:text-left">Avec le soutien de</span>
+                <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:justify-start">
+                  <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
+                    <Image
+                      src="/foodtech.png"
+                      alt="FoodTech"
+                      width={80}
+                      height={24}
+                      className="h-7 w-auto sm:h-8"
+                    />
+                  </div>
+                  <div className="rounded-md bg-[#FFCD00] px-3 py-1.5 sm:px-4 sm:py-2">
+                    <Image
+                      src="/bpi.svg"
+                      alt="Bpifrance"
+                      width={100}
+                      height={32}
+                      className="h-5 w-auto sm:h-6"
+                    />
+                  </div>
+                  <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
+                    <Image
+                      src="/agroalia.avif"
+                      alt="Agroalia"
+                      width={80}
+                      height={24}
+                      className="h-7 w-auto sm:h-8"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Colonne droite - Photo Katia en grand */}
             <div className="relative lg:shrink-0 flex flex-col items-center">
               <div className="mb-4 w-fit rounded-full bg-[#3ecf8e]/20 px-5 py-2 ring-2 ring-[#3ecf8e] sm:mb-6 sm:px-6">
-                <span className="text-base font-semibold text-[#3ecf8e] sm:text-lg">⭐ Main Guest</span>
+                <span className="text-base font-semibold text-[#3ecf8e] sm:text-lg">Main Guest</span>
               </div>
               <div className="relative">
                 <Image
@@ -124,33 +158,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          {/* Logos partenaires - sur une même ligne */}
-          <div className="mt-2 flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:justify-start">
-            <span className="text-xs font-semibold text-gray-400 sm:text-sm">Avec le soutien de</span>
-            <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
-              <Image
-                src="/foodtech.png"
-                alt="FoodTech"
-                width={80}
-                height={24}
-                className="h-7 w-auto sm:h-8"
-              />
-            </div>
-            <div className="rounded-md bg-[#FFCD00] px-3 py-1.5 sm:px-4 sm:py-2">
-              <Image
-                src="/bpi.svg"
-                alt="Bpifrance"
-                width={100}
-                height={32}
-                className="h-5 w-auto sm:h-6"
-              />
-            </div>
-          </div>
         </main>
 
         {/* Lien "En savoir plus" en bas */}
-        <div className="flex flex-col items-center gap-2 pb-4 sm:gap-3">
+        <div className="flex flex-col items-center gap-2 pb-4 pt-2 sm:gap-3">
           <a
             href="#details"
             className="rounded-xl border-2 border-[#3ecf8e] px-6 py-3 text-sm font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:text-base"
