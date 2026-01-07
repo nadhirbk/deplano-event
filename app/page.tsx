@@ -54,9 +54,15 @@ export default function Home() {
                     href="https://maps.google.com/?q=Incubateur+Rungis+and+Co+MIN+de+Rungis"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline decoration-gray-500 underline-offset-4 transition-colors hover:text-[#3ecf8e] hover:decoration-[#3ecf8e]"
+                    className="transition-opacity hover:opacity-80"
                   >
-                    MIN de Rungis - Incubateur Rungis&amp;Co
+                    <Image
+                      src="/rungis&co.svg"
+                      alt="Incubateur Rungis&Co"
+                      width={120}
+                      height={32}
+                      className="h-6 w-auto sm:h-7"
+                    />
                   </a>
                 </div>
               </div>
