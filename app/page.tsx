@@ -97,7 +97,7 @@ export default function Home() {
                 href={googleFormUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group w-full rounded-full bg-[#3ecf8e] px-8 py-4 text-center text-base font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 sm:w-fit sm:px-10 sm:py-4 sm:text-lg"
+                className="group w-full rounded-full bg-[#3ecf8e] px-6 py-3 text-center text-sm font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 sm:w-fit sm:px-8 sm:py-3 sm:text-base"
               >
                 S&apos;inscrire gratuitement
               </a>
@@ -105,32 +105,32 @@ export default function Home() {
               {/* Logos partenaires */}
               <div className="mt-6 flex flex-col gap-1">
                 <span className="text-center text-xs font-semibold text-gray-400 sm:text-sm lg:text-left">Avec le soutien de</span>
-                <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:justify-start">
-                  <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
+                <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 lg:justify-start">
+                  <div className="rounded-md bg-white px-2 py-1 sm:px-3 sm:py-1.5">
                     <Image
                       src="/foodtech.png"
                       alt="FoodTech"
                       width={80}
                       height={24}
-                      className="h-7 w-auto sm:h-8"
+                      className="h-5 w-auto sm:h-6"
                     />
                   </div>
-                  <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
+                  <div className="rounded-md bg-white px-2 py-1 sm:px-3 sm:py-1.5">
                     <Image
                       src="/agroalia.avif"
                       alt="Agroalia"
                       width={80}
                       height={24}
-                      className="h-7 w-auto sm:h-8"
+                      className="h-5 w-auto sm:h-6"
                     />
                   </div>
-                  <div className="rounded-md bg-[#FFCD00] px-3 py-1.5 sm:px-4 sm:py-2">
+                  <div className="rounded-md bg-[#FFCD00] px-2 py-1 sm:px-3 sm:py-1.5">
                     <Image
                       src="/bpi.svg"
                       alt="Bpifrance"
                       width={100}
                       height={32}
-                      className="h-5 w-auto sm:h-6"
+                      className="h-4 w-auto sm:h-5"
                     />
                   </div>
                 </div>
