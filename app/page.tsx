@@ -27,7 +27,7 @@ export default function Home() {
             <div className="flex flex-col items-center text-center lg:flex-1 lg:items-start lg:text-left">
               {/* Badge Talk */}
               <div className="mb-4 w-fit rounded-full bg-[#3ecf8e]/20 px-5 py-2 ring-2 ring-[#3ecf8e] sm:mb-6 sm:px-6">
-                <span className="text-base font-semibold text-[#3ecf8e] sm:text-lg">🎤 Talk</span>
+                <span className="text-base font-semibold text-[#3ecf8e] sm:text-lg">Talk</span>
               </div>
 
               {/* Titre de l'événement */}
