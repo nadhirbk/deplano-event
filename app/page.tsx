@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-[#1e2a3a] text-white">
       {/* Hero Section */}
       <section className="flex min-h-screen flex-col justify-between py-8 sm:py-12">
-        <main className="mx-auto max-w-6xl flex-1 px-4 sm:px-6 flex flex-col justify-center">
+        <main className="mx-auto max-w-6xl flex-1 px-4 sm:px-6 pb-8 flex flex-col justify-center">
           {/* Header avec logo DePlano */}
           <div className="mb-4 flex justify-center sm:mb-12">
             <Image
@@ -97,7 +97,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="group w-full rounded-full bg-[#3ecf8e] px-8 py-4 text-center text-base font-semibold text-white shadow-lg shadow-[#3ecf8e]/30 transition-all hover:bg-[#35b57a] hover:shadow-xl hover:shadow-[#3ecf8e]/40 hover:scale-105 sm:w-fit sm:px-10 sm:py-4 sm:text-lg"
               >
-                🎟️ S&apos;inscrire gratuitement
+                S&apos;inscrire gratuitement
               </a>
             </div>
 
@@ -124,7 +124,7 @@ export default function Home() {
           </div>
 
           {/* Logos partenaires - sur une même ligne */}
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:justify-start">
+          <div className="mt-2 flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:justify-start">
             <span className="text-xs text-gray-400 sm:text-sm">Avec le soutien de</span>
             <div className="rounded-md bg-white px-3 py-1.5 sm:px-4 sm:py-2">
               <span className="text-xs font-bold text-gray-800 sm:text-sm">FoodTech</span>
