@@ -116,7 +116,8 @@ export default function Home() {
                       className="h-5 w-auto sm:h-6"
                     />
                   </div>
-                  <div className="rounded-md bg-[#FFCD00] px-2 py-1 sm:px-3 sm:py-1.5">
+                  {/* Logo Bpifrance masqué temporairement - en attente d'accord */}
+                  {/* <div className="rounded-md bg-[#FFCD00] px-2 py-1 sm:px-3 sm:py-1.5">
                     <Image
                       src="/bpi.svg"
                       alt="Bpifrance"
@@ -124,7 +125,7 @@ export default function Home() {
                       height={32}
                       className="h-4 w-auto sm:h-5"
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -188,7 +189,7 @@ export default function Home() {
       </section>
 
       {/* Section Détails */}
-      <section id="details" className="scroll-mt-4 bg-[#162029] py-12 sm:scroll-mt-8 sm:py-16">
+      <section id="details" className="scroll-mt-4 bg-[#162029] py-12 sm:scroll-mt-16 sm:py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="grid gap-8 md:grid-cols-2 md:gap-12">
             {/* À propos */}
