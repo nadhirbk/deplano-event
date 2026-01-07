@@ -240,9 +240,13 @@ export default function Home() {
                 {/* Les Minuscules */}
                 <div className="flex items-center gap-4">
                   <div className="shrink-0">
-                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gray-600 text-xl font-bold text-white sm:h-20 sm:w-20 sm:text-2xl">
-                      LM
-                    </div>
+                    <Image
+                      src="/minuscules.png"
+                      alt="Les Minuscules"
+                      width={80}
+                      height={80}
+                      className="h-16 w-16 rounded-full object-cover sm:h-20 sm:w-20"
+                    />
                   </div>
                   <div>
                     <p className="font-semibold text-white sm:text-lg">Les Minuscules</p>
@@ -252,10 +256,14 @@ export default function Home() {
 
                 {/* Dooda */}
                 <div className="flex items-center gap-4">
-                  <div className="shrink-0">
-                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gray-600 text-xl font-bold text-white sm:h-20 sm:w-20 sm:text-2xl">
-                      D
-                    </div>
+                  <div className="shrink-0 flex h-16 w-16 items-center justify-center rounded-full bg-white sm:h-20 sm:w-20">
+                    <Image
+                      src="/dooda8.png"
+                      alt="Dooda"
+                      width={80}
+                      height={80}
+                      className="h-10 w-10 object-contain sm:h-12 sm:w-12"
+                    />
                   </div>
                   <div>
                     <p className="font-semibold text-white sm:text-lg">Dooda</p>
