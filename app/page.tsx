@@ -93,9 +93,10 @@ export default function Home() {
                   className="h-48 w-48 rounded-full object-cover grayscale sm:h-64 sm:w-64 lg:h-80 lg:w-80"
                 />
               </div>
-              <div className="mt-4 text-center">
+              <div className="mt-4 text-center max-w-xs lg:max-w-sm">
                 <p className="text-lg font-semibold text-white sm:text-xl lg:text-2xl">Maître Katia Merten-Lentz</p>
-                <p className="text-sm text-gray-400 lg:text-base">Avocate experte en food law</p>
+                <p className="text-sm text-gray-400 lg:text-base">Avocate Food Law</p>
+                <p className="text-xs text-gray-500 lg:text-sm">Experte alimentation humaine et animale, innovation et sécurité alimentaire</p>
               </div>
             </div>
           </div>
@@ -206,7 +207,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-semibold text-white sm:text-lg">Maître Katia Merten-Lentz</p>
-                    <p className="text-sm text-gray-400">Avocate experte en food law et innovation alimentaire</p>
+                    <p className="text-sm text-gray-400">Avocate Food Law - Experte alimentation humaine et animale</p>
                   </div>
                 </div>
 
