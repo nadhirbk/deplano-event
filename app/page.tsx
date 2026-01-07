@@ -78,18 +78,18 @@ export default function Home() {
                 <span className="text-base font-semibold text-white sm:text-lg">Main Guest</span>
               </div>
               <div className="relative">
-                <div className="absolute -bottom-2 -right-2 h-48 w-48 rounded-full bg-[#3ecf8e] sm:h-64 sm:w-64 lg:h-72 lg:w-72" />
+                <div className="absolute -bottom-2 -right-2 h-48 w-48 rounded-full bg-[#3ecf8e] sm:h-64 sm:w-64 lg:h-80 lg:w-80" />
                 <Image
                   src="/speakers/katia.png"
                   alt="Maître Katia Merten-Lentz"
-                  width={288}
-                  height={288}
-                  className="relative h-48 w-48 rounded-full object-cover grayscale sm:h-64 sm:w-64 lg:h-72 lg:w-72"
+                  width={320}
+                  height={320}
+                  className="relative h-48 w-48 rounded-full object-cover grayscale sm:h-64 sm:w-64 lg:h-80 lg:w-80"
                 />
               </div>
               <div className="mt-4 text-center">
-                <p className="text-lg font-semibold text-white sm:text-xl">Maître Katia Merten-Lentz</p>
-                <p className="text-sm text-gray-400">Avocate experte en food law</p>
+                <p className="text-lg font-semibold text-white sm:text-xl lg:text-2xl">Maître Katia Merten-Lentz</p>
+                <p className="text-sm text-gray-400 lg:text-base">Avocate experte en food law</p>
               </div>
             </div>
           </div>
