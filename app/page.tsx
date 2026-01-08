@@ -102,18 +102,18 @@ export default function Home() {
                     <Image
                       src="/foodtech.png"
                       alt="FoodTech"
-                      width={80}
-                      height={24}
-                      className="h-5 w-auto sm:h-6"
+                      width={120}
+                      height={36}
+                      className="h-7 w-auto sm:h-8"
                     />
                   </div>
                   <div className="rounded-md bg-white px-2 py-1 sm:px-3 sm:py-1.5">
                     <Image
                       src="/agroalia.avif"
                       alt="Agroalia"
-                      width={80}
-                      height={24}
-                      className="h-5 w-auto sm:h-6"
+                      width={120}
+                      height={36}
+                      className="h-7 w-auto sm:h-8"
                     />
                   </div>
                   {/* Logo Bpifrance masqué temporairement - en attente d'accord */}
