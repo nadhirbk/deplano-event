@@ -96,24 +96,24 @@ export default function Home() {
 
               {/* Logos partenaires */}
               <div className="mt-2 flex flex-col gap-1 sm:mt-6">
-                <span className="text-center text-xs font-semibold text-gray-400 sm:text-sm lg:text-left">Avec le soutien de</span>
+                <span className="text-center text-sm font-semibold text-gray-400 sm:text-base lg:text-left">Avec le soutien de</span>
                 <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 lg:justify-start">
                   <div className="rounded-md bg-white px-2 py-1 sm:px-3 sm:py-1.5">
                     <Image
                       src="/foodtech.png"
                       alt="FoodTech"
-                      width={120}
-                      height={36}
-                      className="h-7 w-auto sm:h-8"
+                      width={140}
+                      height={42}
+                      className="h-8 w-auto sm:h-9"
                     />
                   </div>
                   <div className="rounded-md bg-white px-2 py-1 sm:px-3 sm:py-1.5">
                     <Image
                       src="/agroalia.avif"
                       alt="Agroalia"
-                      width={120}
-                      height={36}
-                      className="h-7 w-auto sm:h-8"
+                      width={140}
+                      height={42}
+                      className="h-8 w-auto sm:h-9"
                     />
                   </div>
                   {/* Logo Bpifrance masqué temporairement - en attente d'accord */}
