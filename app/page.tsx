@@ -197,7 +197,7 @@ export default function Home() {
               <div className="mb-4 w-fit rounded-full bg-[#3ecf8e]/20 px-5 py-2 ring-2 ring-[#3ecf8e] sm:mb-6">
                 <span className="text-sm font-semibold text-[#3ecf8e] sm:text-base">À propos</span>
               </div>
-              <div className="space-y-4 text-base leading-relaxed text-gray-300 sm:text-lg">
+              <div className="space-y-4 text-base leading-relaxed text-gray-300 text-justify sm:text-lg">
                 <p>
                   Pensé il y a près de 30 ans et révisé il y a 7 ans pour dynamiser l&apos;innovation et faciliter l&apos;accès au marché européen, le règlement Novel Food suscite toujours autant d&apos;espoirs que de zones d&apos;ombre.
                 </p>
