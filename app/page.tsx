@@ -276,20 +276,20 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* Dooda */}
+                {/* Aziz Kaouech - Dooda */}
                 <div className="flex items-center gap-4">
-                  <div className="shrink-0 flex h-16 w-16 items-center justify-center rounded-full bg-white sm:h-20 sm:w-20">
+                  <div className="shrink-0">
                     <Image
-                      src="/dooda8.png"
-                      alt="Dooda"
+                      src="/speakers/aziz.jpg"
+                      alt="Aziz Kaouech"
                       width={80}
                       height={80}
-                      className="h-10 w-10 object-contain sm:h-12 sm:w-12"
+                      className="h-16 w-16 rounded-full object-cover grayscale sm:h-20 sm:w-20"
                     />
                   </div>
                   <div>
-                    <p className="font-semibold text-white sm:text-lg">Dooda</p>
-                    <p className="text-sm text-gray-400">Ingrédients à base d&apos;insectes pour nourrir les animaux, les plantes et les humains</p>
+                    <p className="font-semibold text-white sm:text-lg">Aziz Kaouech</p>
+                    <p className="text-sm text-gray-400">Co-fondateur @Dooda</p>
                   </div>
                 </div>
               </div>
