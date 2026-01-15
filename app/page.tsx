@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="bg-[#1e2a3a] text-white">
       {/* Hero Section */}
-      <section className="flex min-h-screen flex-col justify-start pt-8 pb-4 sm:justify-between sm:py-8">
+      <section className="flex min-h-screen flex-col justify-start pt-8 pb-4 sm:justify-between sm:pt-8 sm:pb-24">
         <main className="mx-auto max-w-6xl px-4 sm:px-6 pb-2 flex flex-col justify-center sm:flex-1">
           {/* Header avec logo DePlano */}
           <div className="mb-4 flex justify-center sm:mb-12">
@@ -92,10 +92,16 @@ export default function Home() {
                     />
                   </a>
                 </div>
+                <div className="flex items-center justify-center gap-2 text-sm sm:gap-3 sm:text-lg lg:justify-start">
+                  <span className="flex items-center gap-1.5 rounded-full bg-red-500/20 px-3 py-1 text-sm font-semibold text-red-500 ring-1 ring-red-500 sm:gap-2 sm:px-4 sm:py-1.5 sm:text-base">
+                    <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-red-500 sm:h-3 sm:w-3"></span>
+                    Live streaming
+                  </span>
+                </div>
               </div>
 
               {/* Logos partenaires */}
-              <div className="mt-2 flex flex-col gap-1 sm:mt-6">
+              <div className="mt-2 flex flex-col gap-1 sm:mt-3">
                 <span className="text-center text-sm font-semibold text-gray-400 sm:text-base lg:text-left">Avec le soutien de</span>
                 <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 lg:justify-start">
                   <div className="rounded-md bg-white px-2 py-1 sm:px-3 sm:py-1.5">
@@ -167,7 +173,7 @@ export default function Home() {
         </main>
 
         {/* CTAs en bas */}
-        <div className="flex flex-col items-center gap-2 pb-2 pt-4 sm:gap-3 sm:pb-4 sm:pt-2">
+        <div className="flex flex-col items-center gap-2 pb-12 pt-4 sm:gap-3 sm:pb-4 sm:pt-2">
           {/* S'inscrire - mobile/tablette seulement */}
           <a
             href={googleFormUrl}
