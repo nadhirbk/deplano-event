@@ -173,24 +173,24 @@ export default function Home() {
         </main>
 
         {/* CTAs en bas */}
-        <div className="flex flex-col items-center gap-2 pb-12 pt-4 sm:gap-3 sm:pb-4 sm:pt-2">
+        <div className="flex flex-col items-center gap-1.5 pb-12 pt-4 sm:gap-3 sm:pb-4 sm:pt-2">
           {/* S'inscrire - mobile/tablette seulement */}
           <a
             href={googleFormUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-56 text-center rounded-xl bg-[#3ecf8e] px-5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 active:scale-95 sm:w-auto sm:px-6 sm:py-3 sm:text-base lg:hidden"
+            className="w-48 text-center rounded-lg bg-[#3ecf8e] px-4 py-2 text-xs font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 active:scale-95 sm:w-auto sm:rounded-xl sm:px-6 sm:py-3 sm:text-base lg:hidden"
           >
             S&apos;inscrire gratuitement
           </a>
           {/* En savoir plus - toujours visible et centré */}
           <button
             onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
-            className="w-56 rounded-xl border-2 border-[#3ecf8e] px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:w-auto sm:px-6 sm:py-3 sm:text-base"
+            className="w-48 rounded-lg border-2 border-[#3ecf8e] px-4 py-2 text-xs font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:w-auto sm:rounded-xl sm:px-6 sm:py-3 sm:text-base"
           >
             En savoir plus
           </button>
-          <ChevronDown className="h-5 w-5 animate-bounce text-[#3ecf8e] sm:h-6 sm:w-6" />
+          <ChevronDown className="h-4 w-4 animate-bounce text-[#3ecf8e] sm:h-6 sm:w-6" />
         </div>
       </section>
 
