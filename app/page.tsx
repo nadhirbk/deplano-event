@@ -188,7 +188,8 @@ export default function Home() {
             onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
             className="w-48 rounded-lg border-2 border-[#3ecf8e] px-4 py-2 text-xs font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:w-auto sm:rounded-xl sm:px-6 sm:py-3 sm:text-base"
           >
-            En savoir plus
+            <span className="sm:hidden">En savoir plus</span>
+            <span className="hidden sm:inline">En savoir plus sur l&apos;événement</span>
           </button>
           <ChevronDown className="h-4 w-4 animate-bounce text-[#3ecf8e] sm:h-6 sm:w-6" />
         </div>
