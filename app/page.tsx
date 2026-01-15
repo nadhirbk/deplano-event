@@ -179,16 +179,16 @@ export default function Home() {
             href={googleFormUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-xl bg-[#3ecf8e] px-5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 active:scale-95 sm:px-6 sm:py-3 sm:text-base lg:hidden"
+            className="w-56 text-center rounded-xl bg-[#3ecf8e] px-5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 active:scale-95 sm:w-auto sm:px-6 sm:py-3 sm:text-base lg:hidden"
           >
             S&apos;inscrire gratuitement
           </a>
           {/* En savoir plus - toujours visible et centré */}
           <button
             onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
-            className="rounded-xl border-2 border-[#3ecf8e] px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:px-6 sm:py-3 sm:text-base"
+            className="w-56 rounded-xl border-2 border-[#3ecf8e] px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:w-auto sm:px-6 sm:py-3 sm:text-base"
           >
-            En savoir plus sur l&apos;événement
+            En savoir plus
           </button>
           <ChevronDown className="h-5 w-5 animate-bounce text-[#3ecf8e] sm:h-6 sm:w-6" />
         </div>
