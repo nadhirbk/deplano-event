@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="bg-[#1e2a3a] text-white">
       {/* Hero Section */}
-      <section className="flex min-h-screen flex-col justify-start pt-8 pb-4 sm:justify-between sm:pt-8 sm:pb-24">
+      <section className="flex min-h-screen flex-col justify-start pt-8 pb-4 sm:justify-between sm:pt-8 sm:pb-32">
         <main className="mx-auto max-w-6xl px-4 sm:px-6 pb-2 flex flex-col justify-center sm:flex-1">
           {/* Header avec logo DePlano */}
           <div className="mb-4 flex justify-center sm:mb-12">
@@ -135,15 +135,6 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* CTA S'inscrire - Desktop uniquement, aligné à gauche */}
-              <a
-                href={googleFormUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 hidden rounded-xl bg-[#3ecf8e] px-6 py-3 text-base font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 active:scale-95 lg:inline-block"
-              >
-                S&apos;inscrire gratuitement
-              </a>
             </div>
 
             {/* Colonne droite - Photo Katia en grand */}
@@ -174,23 +165,26 @@ export default function Home() {
 
         {/* CTAs en bas */}
         <div className="flex flex-col items-center gap-1.5 pb-12 pt-4 sm:gap-3 sm:pb-4 sm:pt-2">
-          {/* S'inscrire - mobile/tablette seulement */}
-          <a
-            href={googleFormUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-48 text-center rounded-lg bg-[#3ecf8e] px-4 py-2 text-xs font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 active:scale-95 sm:w-auto sm:rounded-xl sm:px-6 sm:py-3 sm:text-base lg:hidden"
-          >
-            S&apos;inscrire gratuitement
-          </a>
-          {/* En savoir plus - toujours visible et centré */}
-          <button
-            onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
-            className="w-48 rounded-lg border-2 border-[#3ecf8e] px-4 py-2 text-xs font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:w-auto sm:rounded-xl sm:px-6 sm:py-3 sm:text-base"
-          >
-            <span className="sm:hidden">En savoir plus</span>
-            <span className="hidden sm:inline">En savoir plus sur l&apos;événement</span>
-          </button>
+          {/* Conteneur des deux boutons - colonne sur mobile, ligne sur desktop */}
+          <div className="flex flex-col items-center gap-1.5 sm:flex-row sm:gap-4">
+            {/* S'inscrire */}
+            <a
+              href={googleFormUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-48 text-center rounded-lg bg-[#3ecf8e] px-4 py-2 text-xs font-semibold text-white transition-all hover:bg-[#35b57a] hover:scale-105 active:scale-95 sm:w-auto sm:rounded-xl sm:px-6 sm:py-3 sm:text-base"
+            >
+              S&apos;inscrire gratuitement
+            </a>
+            {/* En savoir plus */}
+            <button
+              onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
+              className="w-48 rounded-lg border-2 border-[#3ecf8e] px-4 py-2 text-xs font-medium text-white transition-all hover:bg-[#3ecf8e]/10 active:scale-95 sm:w-auto sm:rounded-xl sm:px-6 sm:py-3 sm:text-base"
+            >
+              <span className="sm:hidden">En savoir plus</span>
+              <span className="hidden sm:inline">En savoir plus sur l&apos;événement</span>
+            </button>
+          </div>
           <ChevronDown className="h-4 w-4 animate-bounce text-[#3ecf8e] sm:h-6 sm:w-6" />
         </div>
       </section>
