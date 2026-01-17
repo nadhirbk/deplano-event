@@ -93,10 +93,15 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="flex items-center justify-center gap-2 text-sm sm:gap-3 sm:text-lg lg:justify-start">
-                  <span className="flex items-center gap-1.5 rounded-full bg-red-500/20 px-3 py-1 text-sm font-semibold text-red-500 ring-1 ring-red-500 sm:gap-2 sm:px-4 sm:py-1.5 sm:text-base">
+                  <a
+                    href="https://www.linkedin.com/video/event/urn:li:ugcPost:7417924702133936128"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 rounded-full bg-red-500/20 px-3 py-1 text-sm font-semibold text-red-500 ring-1 ring-red-500 transition-all hover:bg-red-500/30 hover:scale-105 sm:gap-2 sm:px-4 sm:py-1.5 sm:text-base"
+                  >
                     <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-red-500 sm:h-3 sm:w-3"></span>
                     Live streaming
-                  </span>
+                  </a>
                 </div>
               </div>
 
